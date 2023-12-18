@@ -85,6 +85,7 @@ const Return = () => {
 const App = () => {
   return (
     <div className="App">
+          <a href = '/checkout' element={<CheckoutForm />}>tto</a>
       <Router>
         <Routes>
           <Route path="/checkout" element={<CheckoutForm />} />
